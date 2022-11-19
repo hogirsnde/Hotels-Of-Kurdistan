@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hotel Of Kurdistan</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+        <link rel="stylesheet" href="./fontawesome/css/fontawesome.min.css" />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="./image/page-removebg-preview.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <header class="nav">
+            <div class="logo">
+                <a href="./index.html">Kurd <span>Stan</span></a>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="search" placeholder="Seacrh Hotel" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="image"><img src="./image/user.jpg" alt="" /></div>
+            </div>
+        </header>
+
+        <section class="home" id="home">
+            <div class="navabr">
+                <a href="#home" class="nav-link nav-act">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+
+                <a href="#towers" class="nav-link">
+                    <i class="fa-solid fa-hotel"></i>
+                    <span class="nav-link-title">Towers</span>
+                </a>
+
+                <a href="#Questions" class="nav-link">
+                    <i class="fa-solid fa-question"></i>
+                    <i class="fa-solid fa-square-question"></i>
+                    <span class="nav-link-title">Questions</span>
+                </a>
+
+                <a href="#SERVICES" class="nav-link">
+                    <i class="fa-brands fa-servicestack"></i>
+                    <span class="nav-link-title">SERVICES</span>
+                </a>
+
+                <a href="#guests" class="nav-link">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span class="nav-link-title">Gueses</span>
+                </a>
+            </div>
+            <div class="video">
+                <video autoplay loop muted>
+                    <source src="./video/video.mp4" type="video/mp4" />
+                </video>
+                <!-- home text  -->
+                <div class="home-text">
+                    <h1 class="home-title">
+                        Kurdistan <span> Hotels </span><br />
+                        && Tower
+                    </h1>
+                    <p>Realeasing 10 april</p>
+                    <a href="#" class="watch-btn">
+                        <i class="fa-solid fa-play"></i>
+                        <span>Wath the trailr</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="hotels" id="towers">
+            <input
+                type="text"
+                class="search"
+                placeholder="Search Hotels Within The City.."
+                id="search-box"
+                list="names"
+            />
+            <datalist id="names">
+                <option value="duhok"></option>
+                <option value="sulaymani"></option>
+                <option value="hawler"></option>
+                <option value="All" id="all"></option>
+            </datalist>
+            <div class="boxs">
+                <div class="box" data-title="duhok">
+                    <img src="./image/rixos.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Rixos <span>Duhok</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Duhok</h3>
+                            <p>
+                                King Rixos Duhok offers 5-star accommodation
+                                with an indoor pool, sauna and hot tub.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.8588337104457!2d42.99611998543329!3d36.845856772829364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40088c17acf51e7f%3A0x7f2d3ea5d9b13f50!2z2YHZhtiv2YIg2LHZitmD2LPZiNiz!5e0!3m2!1sar!2siq!4v1668720790367!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="sulaymani">
+                    <img src="./image/slemani-rotana.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Slemani <span>Rotana</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Sulaymani</h3>
+
+                            <p>
+                                Ideal for long and short stays, modern and
+                                elegenat rooms and suites, luxurious facilities.
+                                Get the best rates from the official website.
+                                Book directly now and save on your stay. Central
+                                location.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.895937780092!2d45.4344289854753!3d35.55627214442384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002d963e663e65%3A0x981e31da923b1937!2z2Kbbhtiq247ZhCDalduG2KrYp9mG2KcgLyDZgdmG2K_ZgiDYsdmI2KrYp9mG2Kc!5e0!3m2!1sar!2siq!4v1668696821717!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="hawler">
+                    <img src="./image/quartiz.jpeg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Erbil Quartiz <span>Hotel</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Hawler</h3>
+
+                            <p>
+                                Offering an indoor pool and a restaurant, Erbil
+                                Quartz Hotel is located in Erbil. Free WiFi
+                                access is available in all areas.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1610.2962928060053!2d44.01381665469913!3d36.17646758482784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40072311edbb4621%3A0x4fdba0794682f964!2z2YHZhtiv2YIg2KPYsdio2YrZhCDZg9mI2KfYsdiq2LM!5e0!3m2!1sar!2siq!4v1668714656401!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="duhok">
+                    <img src="./image/khani.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Khani <span>Hotel</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Duhok</h3>
+
+                            <p>
+                                Situated in Duhok, 1.9 km from Shākhkī, Khani
+                                Hotel features accommodation with a restaurant,
+                                free private parking, a shared lounge and a
+                                garden.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d798.0079180934481!2d42.99410198726509!3d36.86566070461918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40088c529a2f2215%3A0x7dc8fa42a836b273!2z2YHZhtiv2YIg2K7Yp9mG2Yo!5e0!3m2!1sar!2siq!4v1668715449630!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="hawler">
+                    <img src="./image/divan1.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Divan Erbil <span>Hotel</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Hawler</h3>
+
+                            <p>
+                                Located in Gulan Street in Erbil, Divan Erbil
+                                Hotel offers luxurious, air-conditioned
+                                guestrooms with 24-hour room service. Exclusive
+                                hotel very nice decor. Lovely people who work
+                                and want to maximize your
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1609.8757817046428!2d43.97856646280412!3d36.196923418704614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4007228e76de7f79%3A0x3a19af76023d1020!2z2YHZhtiv2YIg2K_ZitmB2KfZhg!5e0!3m2!1sar!2siq!4v1668716399077!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="sulaymani">
+                    <img src="./image/grand.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Grand <span> (Millennium) </span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Sulaymani</h3>
+
+                            <p>
+                                The Grand Millennium Sulaimani Hotel is a 5-star
+                                hotel, offering free WiFi in all areas, spa and
+                                fitness facilities, bars and restaurants serving
+                                international cuisine. It features an indoor
+                                pool.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.6722574874218!2d45.409055639377634!3d35.56988755231275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002dd99000000f%3A0xd25fef9e431232df!2sGrand%20Millennium%20Hotel%20Sulaimani!5e0!3m2!1sar!2siq!4v1668717181870!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="duhok">
+                    <img src="./image/sargali.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Sargali Duhok <span>Hotel</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Duhok</h3>
+
+                            <p>
+                                Situated in Duhok, 3 km from Māļta-ē Islām,
+                                Sargali Duhok Hotel features accommodation with
+                                a restaurant, free private parking, a fitness
+                                centre and a shared lounge.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51078.22564275252!2d43.004159004230104!3d36.85710421362196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40088da22618535d%3A0xbec763397370415b!2zSE9URUwgU0FSR0FMSSDZgdmG2K_ZgiDYs9ix2YPZhNmK!5e0!3m2!1sar!2siq!4v1668714935740!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="sulaymani">
+                    <img src="./image/branan.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Copthorne Hotel <span>Baranan</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Sulaymani</h3>
+
+                            <p>
+                                Located 5 minutes’ drive from the business
+                                district of Salim Street, Copthorne Hotel
+                                Baranan is set in Sulaimaniyah. It includes a
+                                restaurant, a bar and a 24-hour front desk.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405.63490480650637!2d45.38736316150395!3d35.57643599274233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002de2987e73a9%3A0xc0a1abd24dd1b565!2sCopthorne%20Baranan!5e0!3m2!1sar!2siq!4v1668717489518!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="hawler">
+                    <img src="./image/international.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Erbil <span>International</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Hawler</h3>
+                            <p>
+                                Located in central Erbil, this property offers
+                                modern accommodations. It features free Wi-Fi in
+                                all areas, a free outdoor and indoor swimming
+                                pool and a free fitness centre.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.405938789798!2d44.01291818564348!3d36.181008180080774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40072305a5b8d6dd%3A0xf658b2eb52df512e!2z2YHZhtiv2YIg2KfYsdio2YrZhCDYp9mE2K_ZiNmE2Yo!5e0!3m2!1sar!2siq!4v1668719140321!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="sulaymani">
+                    <img src="./image/titanic.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Titanic Hotel & <span>SPA</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Sulaymani</h3>
+
+                            <p>
+                                Located in Al Sulaimaniyah-Kurdistan, Titanic
+                                Hotel and spa offers ultimate accommodation,
+                                excellent meals with live music at dinner and
+                                special events. Free private parking is
+                                available on site.
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.1200351646626!2d45.46956428566716!3d35.575428980219066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002eca8652ce4d%3A0x729a67508deba4a9!2z2YHZhtiv2YIg2KrZitiq2KfZhtmK2YM!5e0!3m2!1sar!2siq!4v1668717701210!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="hawler">
+                    <img src="./image/regency.jpg" alt="" />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Hyatt Regency <span> Residences </span></h2>
+                            <i class="fa-solid save fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Hawler</h3>
+
+                            <p>
+                                Situated in Erbil, 2.9 km from Sami Abdulrahman
+                                Park, Hyatt Regency Erbil Residences features
+                                accommodation with a restaurant, free private
+                                parking, a fitness centre and a bar
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.0756995045913!2d55.32672318601618!3d25.234375183878925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d8b7edea725%3A0x46b438340b7625bd!2sHyatt%20Regency%20Creek%20Heights%20Residences!5e0!3m2!1sar!2siq!4v1668718610092!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-title="sulaymani">
+                    <img
+                        src="./image/lawa.jpg
+                    "
+                        alt=""
+                    />
+                    <div class="text">
+                        <div class="t1">
+                            <h2>Lawa <span>Hotel</span></h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="t2">
+                            <h3>Sulaymani</h3>
+                            <p>
+                                Situated in As Sulaymānīyah and with Chavi Land
+                                reachable within 6.5 km, Lawa Hotel features
+                                express check-in and check-out, allergy-free
+                                rooms, a restaurant, free WiFi throughout the
+                                property and a...
+                            </p>
+                            <h5 class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </h5>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.916664659773!2d45.43730678566787!3d35.55576028022372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002de7b84a7501%3A0xbe87b031db50e227!2sLawa%20hotel!5e0!3m2!1sar!2siq!4v1668718062753!5m2!1sar!2siq"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="main">
+            <div class="boxx">
+                <div class="clear"></div>
+                <i class="fa-solid cl fa-x"></i>
+                <div class="image">
+                    <img src="./image/90575527.jpg" alt="" />
+                </div>
+                <div class="info">
+                    <div class="text">
+                        <h2>
+                            Name : &nbsp;<span class="one"
+                                >Lalav City View</span
+                            >
+                            <h6>Rating : <span class="stars"></span></h6>
+                        </h2>
+                        <h2>
+                            City &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;<span
+                                class="two"
+                            >
+                                hawler</span
+                            >
+                        </h2>
+                        <p class="pp">
+                            Description :
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Repellat, voluptatum.</span
+                            >
+                        </p>
+                    </div>
+                    <h4>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1609.427400806278!2d44.06643448047224!3d36.21872399567952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400721b3fe0e3833%3A0xdfa5fe86eb02f340!2sLalav%20City%20View!5e0!3m2!1sar!2siq!4v1668279001624!5m2!1sar!2siq"
+                            class="path"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <main class="question" id="Questions">
+            <h2>Frequently Asked <span>Questions</span></h2>
+            <div class="alldiv">
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>
+                            What hotels are recommended near Kurdistan Iraq?
+                        </h3>
+                    </div>
+
+                    <div class="second">
+                        <p>
+                            f you're having a hard time choosing a hotel,
+                            consider staying at Ramada by Wyndham - Sulaymaniyah
+                            Salim Street, Titanic Hotel & Spa or Grand
+                            Millennium Sulaimani , these hotels have great
+                            reviews. Be sure you book early!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>
+                            Which popular hotels near Kurdistan Iraq have
+                            parking?
+                        </h3>
+                    </div>
+                    <div class="second">
+                        <p>
+                            If you're planning on driving to Kurdistan Iraq in
+                            Sulaymaniyah, why not stay at Grand Millennium
+                            Sulaimani, Millennium Kurdistan Hotel & Spa or
+                            Ramada by Wyndham - Sulaymaniyah Salim Street ?
+                            These are all popular hotels with parking lots.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>
+                            Which hotels near Kurdistan Iraq are the most
+                            popular?
+                        </h3>
+                    </div>
+                    <div class="second">
+                        <p>
+                            Grand Millennium Sulaimani, Millennium Kurdistan
+                            Hotel & Spa and Ramada by Wyndham - Sulaymaniyah
+                            Salim Street are some of the most popular hotels.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>
+                            Which hotels near Kurdistan Iraq are good for
+                            business travelers?
+                        </h3>
+                    </div>
+                    <div class="second">
+                        <p>
+                            When it comes to business trips, choosing a hotel
+                            with convenient transportation links is important to
+                            many guests. Grand Millennium Sulaimani is a popular
+                            economical hotel.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>
+                            What popular hotels near Kurdistan Iraq have
+                            restaurants?
+                        </h3>
+                    </div>
+                    <div class="second">
+                        <p>
+                            If you like the idea of sampling local flavors while
+                            traveling, consider staying at Grand Millennium
+                            Sulaimani, Millennium Kurdistan Hotel & Spa and
+                            Ramada by Wyndham - Sulaymaniyah Salim Street .
+                            There are plenty of restaurants that serve local
+                            dishes near these hotels.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>
+                            What are some accessible hotels near Kurdistan Iraq?
+                        </h3>
+                    </div>
+                    <div class="second">
+                        <p>
+                            Grand Millennium Sulaimani, Millennium Kurdistan
+                            Hotel & Spa and Ramada by Wyndham - Sulaymaniyah
+                            Salim Street are popular accessible hotels.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>Which hotels near Kurdistan Iraq have gyms?</h3>
+                    </div>
+                    <div class="second">
+                        <p>
+                            Since staying fit is important to a lot of guests,
+                            it's no surprise that gyms can be found in many
+                            hotels. Grand Millennium Sulaimani, Millennium
+                            Kurdistan Hotel & Spa and Ramada by Wyndham -
+                            Sulaymaniyah Salim Street are some popular hotels
+                            with gyms.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="q1">
+                    <div class="one">
+                        <span>+</span>
+                        <h3>
+                            What hotels near Kurdistan Iraq offer breakfast?
+                        </h3>
+                    </div>
+                    <div class="second">
+                        <p>
+                            A delicious breakfast is a great way to kick start
+                            your day. If you want to stay at a hotel with
+                            breakfast near Kurdistan Iraq in Sulaymaniyah,
+                            consider Grand Millennium Sulaimani, Millennium
+                            Kurdistan Hotel & Spa or Ramada by Wyndham -
+                            Sulaymaniyah Salim Street . Be sure to book these
+                            popular hotels in advance!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="service" id="SERVICES">
+            <h2>OUR AWESOME <span>SERVICES</span></h2>
+            <div class="row">
+                <div class="ourimg">
+                    <img src="./image/resturant.jpg" class="imgg" alt="" />
+                </div>
+
+                <div class="allour">
+                    <div
+                        class="ourser activeService"
+                        data-src="image/resturant.jpg"
+                    >
+                        <div class="row1">
+                            <i class="fa-solid fa-utensils-slash"></i>
+                            <h3>Restaurant</h3>
+                        </div>
+
+                        <div class="row2">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="ourser" data-src="image/s2.jpg">
+                        <div class="row1">
+                            <i class="fa-solid fa-utensils-slash"></i>
+                            <h3>Spa - Beauty & Health</h3>
+                        </div>
+
+                        <div class="row2">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="ourser" data-src="image/conference.jpg">
+                        <div class="row1">
+                            <i class="fa-solid fa-utensils-slash"></i>
+                            <h3>Conference Room</h3>
+                        </div>
+
+                        <div class="row2">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="ourser" data-src="image/swimming.jpg">
+                        <div class="row1">
+                            <i class="fa-solid fa-utensils-slash"></i>
+                            <h3>Swimming Pool</h3>
+                        </div>
+
+                        <div class="row2">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="guests" id="guests">
+            <h2>Our <span>Guests</span></h2>
+            <div class="allGuest">
+                <div class="guest">
+                    <img src="./image/men1.jpg" alt="" />
+                    <h3>haval salman</h3>
+                    <p>
+                        Enjoyed a relaxing, professional massage in this
+                        beautiful hotel. You won’t be disappointed. Its in a
+                        nice section of Ankawa and easy to walk to if you arent
+                        staying there. They have good, free WiFi. The food is
+                        good too and reasonably priced.
+                    </p>
+                </div>
+
+                <div class="guest">
+                    <img src="./image/girl.jpg" alt="" />
+                    <h3>Zhina Ali</h3>
+                    <p>
+                        the center of ..best spot in erbil, Room is medium
+                        sized, but the hotel have a good breakfast, big size
+                        jacuzzi, nice sauna , massage room, swimming pool, and a
+                        party each weekend at Thursday and Friday (rather
+                        eastern.. Syrian music).
+                    </p>
+                </div>
+
+                <div class="guest">
+                    <img src="./image/family.jpg" alt="" />
+                    <h3>parwar jalal</h3>
+                    <p>
+                        Well kept, has every thing any traveler would need, the
+                        manager and the receptionist were so friendly and so
+                        nice Room is medium sized, but the hotel have a good
+                        breakfast, big size jacuzzi, nice sauna”.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>contact <span> Us..</span></h2>
+            <div class="allcontact">
+                <div class="c1">
+                    <div class="text">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <h2>Address</h2>
+                    </div>
+
+                    <p>Kurdistan <span>Duhok</span> Zaxo</p>
+                </div>
+
+                <div class="c1">
+                    <div class="text">
+                        <i class="fa-solid fa-phone"></i>
+                        <h2>Phone</h2>
+                    </div>
+                    <p>+964<span>9876543</span></p>
+                </div>
+
+                <div class="c1">
+                    <div class="text">
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <h2>Email</h2>
+                    </div>
+                    <p>Example<span>.@gmail.com</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            © Copyright 2022, cloned and Developed by <span>Hogir Omer</span>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
